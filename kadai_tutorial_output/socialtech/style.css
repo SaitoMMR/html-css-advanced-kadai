@@ -5,6 +5,7 @@ p{
   font-size: 15px;
 }
 
+
 /*================
 PC用のスタイル
 =================*/
@@ -40,11 +41,9 @@ PC用のスタイル
   #nav-pc > a:active{
     color: #0d0d0d;
   }
-
   #nav-sp, #menu-sp{
     display: none;
   }
-
   #main-visual{
     position: relative;
     height: 400px;
@@ -158,6 +157,10 @@ PC用のスタイル
     font-size: 16px;
     margin: 0;
   }
+  .product-explain > h3{
+    font-size: 20px;
+    margin: 5px 0;
+  }
   .product-explain>p{
     font-size: 14px;
     margin: 0;
@@ -233,10 +236,10 @@ PC用のスタイル
   .vision-box>span>h4{
     color: #2710d5;
     font-size: 19px;
-    margin-top : 80px; 
+    margin-top : 60px; 
   }
   .vision-box>span>h4::first-letter{
-  font-size: 40px;
+   font-size: 40px;
   }
 
   .vision-box>span>h5{
@@ -244,7 +247,7 @@ PC用のスタイル
     margin: 0;
   }
   .vision-box>span>p{
-    margin-top: 10px;
+    margin-top: 10px 0 0 0;
   }
   #company{
     margin: 80px auto;
@@ -548,10 +551,10 @@ PC用のスタイル
     margin: 0;
   }
   #nav-pc{
-    display:none;
+    display: none;
   }
   #menu-sp{
-    float:right;
+    float: right;
     padding: 0;
   }
   #nav-sp{
@@ -624,6 +627,10 @@ PC用のスタイル
     width: 100%;
     z-index: 11;
   }
+  #main-visual > div > h1 {
+    font-size: 28px;
+    margin: 90px 0 0 0;
+  }
   #main-visual > div > p{
     margin: 0;
   }
@@ -669,7 +676,7 @@ PC用のスタイル
   }
   .product-explain{
     background-color: #ffffff;
-    position: asolute;
+    position: absolute;
     left: 0;
     bottom: 50px;
     padding: 20px;
@@ -679,7 +686,7 @@ PC用のスタイル
     color: #2710d5;
     font-weight: bold;
     font-size: 16px;
-    margin: 0;
+    margin: 0px;
   }
   .product-explain > h3{
     margin: 10px 0;
@@ -875,7 +882,7 @@ PC用のスタイル
     background-position: right top;
   }
   #footer-link > a:link{
-    color:red;
+    color:#ffffff;
   }
   #footer-link > a:visited{
     color: #ffffff;
@@ -916,7 +923,7 @@ PC用のスタイル
     position: absolute;
     top: 0;
     left: 20px;
-    font-size: 18px;
+    font-size: 40px;
   }
   #mission-title > span{
     position: absolute;
